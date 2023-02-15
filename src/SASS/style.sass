@@ -1,0 +1,88 @@
+@import "normalizes.scss"
+@import "resets.scss"
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap')
+$main-color: #DACDC1
+$btn-color: #AD9080
+
+
+html
+    font-family: Montserrat
+    font-style: normal
+    font-weight: 400
+.container
+    margin: 0 auto
+.main-section
+    min-height: 800px
+    background: $main-color
+    position: relative
+    &__nav-content
+        display: flex
+        flex-direction: row
+        position: relative
+        padding-top: 84px
+        padding-left: 36px
+        justify-content: space-between
+        align-items: center
+        height: 98px
+        margin-bottom: 52px
+    &__logo
+        width: 407px
+    &__nav-menu
+        padding-right: 36px
+    &__content
+        height: 443px
+        background-image: url(../img/Фон-1секция.png)
+        background-size: cover
+        background-position: center
+        padding-left: 36px
+        margin-bottom: 20px
+    &__main-text
+        padding-top: 135px
+        color: #FFFF
+        font-size: 32px
+        font-weight: 500
+        margin-bottom: 18px
+    &__main-subtext
+        color: #FFFF
+    &__contacts
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-content: center
+        padding-left: 36px
+    &__phone
+        padding-right: 20px
+
+.nav-menu
+    &__list
+        display: flex
+        flex-direction: row
+    &__list-item
+        margin-right: 90px
+        font-size: 24px
+        color: #FFFF
+        &:last-child
+            margin-right: 0
+
+.icons
+    display: flex
+    justify-content: center
+    align-content: center   
+    &__item
+        widht: 60px
+.button
+    width: 268px
+    height: 35px
+    background: $btn-color
+    border-radius: 5px
+    border: 0
+    font-weight: 500
+    font-size: 20px
+    color: #FFFF
+.phone-number
+    font-weight: 500
+    font-size: 24px
+    color: #FFFF
+    letter-spacing: 0.09em
+    margin-bottom: 10px 
+
